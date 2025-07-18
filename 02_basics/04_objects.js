@@ -63,10 +63,16 @@ const course = {
 
 // course.courseInstructor
 
+// destructuring
 const {courseInstructor: instructor} = course
 
 // console.log(courseInstructor);
 console.log(instructor);
+
+
+// JSON - JavaScript Object Notation
+// JSON is a string representation of an object
+// JSON is used to send data between a server and a client
 
 // {
 //     "name": "hitesh",

@@ -7,7 +7,7 @@ let valueInNumber = Number(score)
 //console.log(typeof valueInNumber);
 //console.log(valueInNumber);
 
-
+// nature when you use Number()
 // "33" => 33
 // "33abc" => NaN
 //  true => 1; false => 0
