@@ -1,3 +1,7 @@
+// switch statement in javascript
+// switch statement is used to execute one block of code among many blocks
+// it is used when we have multiple conditions to check and we want to execute one block of
+
 // switch (key) {
 //     case value:
         
@@ -6,6 +10,9 @@
 //     default:
 //         break;
 // }
+
+
+
 
 const month = "march"
 

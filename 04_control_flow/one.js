@@ -11,6 +11,11 @@ const temperature = 41
 // console.log("Execute");
 // <, >, <=, >=, ==, !=, ===, !==
 
+
+
+
+
+
 // const score = 200
 
 // if (score > 100) {
@@ -21,9 +26,16 @@ const temperature = 41
 // console.log(`User power: ${power}`);
 
 
+
+
+
 // const balance = 1000
 
+
 // if (balance > 500) console.log("test"),console.log("test2");
+
+
+
 
 // if (balance < 500) {
 //     console.log("less than 500");
@@ -37,6 +49,10 @@ const temperature = 41
 //     console.log("less than 1200");
 
 // }
+
+
+
+
 
 const userLoggedIn = true
 const debitCard = true
