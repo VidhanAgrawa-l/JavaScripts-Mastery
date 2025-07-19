@@ -7,24 +7,42 @@ function sayMyName(){
     console.log("S");
     console.log("H");
 }
+// sayMyName  -> this is a function declaration or reference
+// sayMyName() -> this is a function call or execution
 
-// sayMyName()
 
-// function addTwoNumbers(number1, number2){
+
+
+
+
+// function addTwoNumbers(number1, number2){  ->"""number1 and number2 are parameters"""
 
 //     console.log(number1 + number2);
 // }
+// addTwoNumbers(3, 5) // -> this is a function call with arguments 3 and 5
+
+
+
+
+
 
 function addTwoNumbers(number1, number2){
 
     // let result = number1 + number2
     // return result
+
+    // or simply
     return number1 + number2
 }
 
-const result = addTwoNumbers(3, 5)
 
+
+const result = addTwoNumbers(3, 5)
+// this result will be 8 if we return the result from the function and undefined if we don't return anything because in JavaScript, if a function does not explicitly return a value, it returns undefined by default.
 // console.log("Result: ", result);
+
+
+
 
 
 function loginUserMessage(username = "sam"){
@@ -39,11 +57,21 @@ function loginUserMessage(username = "sam"){
 // console.log(loginUserMessage("hitesh"))
 
 
-function calculateCartPrice(val1, val2, ...num1){
+
+
+
+
+function calculateCartPrice(val1, val2, ...num1){   // ...num1 is the rest parameter, it collects all remaining arguments into an array
     return num1
 }
 
-// console.log(calculateCartPrice(200, 400, 500, 2000))
+// console.log(calculateCartPrice(200, 400, 500, 2000))   // this will return [500, 2000] because val1 and val2 are not included in the rest parameter num1
+
+
+
+
+
+
 
 const user = {
     username: "hitesh",
@@ -53,6 +81,11 @@ const user = {
 function handleObject(anyobject){
     console.log(`Username is ${anyobject.username} and price is ${anyobject.price}`);
 }
+
+
+
+
+
 
 // handleObject(user)
 handleObject({
