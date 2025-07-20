@@ -3,12 +3,30 @@
 
 // const values = coding.forEach( (item) => {
 //     //console.log(item);
-//     return item
+//     return item                   // either we use return or not, it will not affect the forEach loop because it does not return anything
 // } )
 
-// console.log(values);
+// console.log(values);              // undefined because forEach does not return anything
+
+
+
+
+
+
+
+
 
 const myNums = [1, 2, 3, 4, 5, 6, 7, 8, 9, 10]
+
+
+
+
+
+
+// filter option  
+// 
+
+// const newNums = myNums.filter( (num) => num > 4 )   // this is a one line arrow function, it is the same as the one below
 
 // const newNums = myNums.filter( (num) => {
 //     return num > 4
@@ -25,6 +43,16 @@ const myNums = [1, 2, 3, 4, 5, 6, 7, 8, 9, 10]
 // console.log(newNums);
 
 
+
+
+
+
+
+
+
+
+
+
 const books = [
     { title: 'Book One', genre: 'Fiction', publish: 1981, edition: 2004 },
     { title: 'Book Two', genre: 'Non-Fiction', publish: 1992, edition: 2008 },
@@ -39,7 +67,7 @@ const books = [
 
   let userBooks = books.filter( (bk) => bk.genre === 'History')
 
-  userBooks = books.filter( (bk) => { 
-    return bk.publish >= 1995 && bk.genre === "History"
-})
+  userBooks = books.filter( (bk) => { return bk.publish >= 1995 && bk.genre === "History"})
+
+
   console.log(userBooks);

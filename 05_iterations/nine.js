@@ -1,13 +1,30 @@
+// This file contains examples of using the `reduce` method in JavaScript
+
+
 const myNums = [1, 2, 3]
 
-// const myTotal = myNums.reduce(function (acc, currval) {
-//     console.log(`acc: ${acc} and currval: ${currval}`);
-//     return acc + currval
+// const myTotal = myNums.reduce(function (accumulator, currentvalue) {
+//     console.log(`acc: ${accumulator} and currval: ${currentvalue}`);
+//     return accumulator + currentvalue
 // }, 0)
 
-const myTotal = myNums.reduce( (acc, curr) => acc+curr, 0)
+
+// this will give the result 
+// acc: 0 and currval: 1
+// acc: 1 and currval: 2
+// acc: 3 and currval: 3
+// 6
+
+
+
+const myTotal = myNums.reduce( (accumulator, currentvalue) => accumulator + currentvalue, 0)
 
 console.log(myTotal);
+
+
+
+
+
 
 
 const shoppingCart = [
